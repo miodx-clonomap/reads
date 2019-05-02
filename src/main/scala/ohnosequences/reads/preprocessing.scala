@@ -1,7 +1,6 @@
 package ohnosequences.reads
 
 import ohnosequences.fastarious._
-import spire.implicits._
 
 case object preprocessing {
 
