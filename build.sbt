@@ -1,11 +1,13 @@
 name          := "reads"
-organization  := "ohnosequences"
+organization  := "com.miodx.clonomap"
+version       := "0.3.0"
 description   := ""
+scalaVersion  := "2.12.8"
 
 bucketSuffix  := "era7.com"
 
 libraryDependencies ++= Seq(
-  "ohnosequences" %% "fastarious" % "0.11.0"
+  "com.miodx.clonomap" %% "fastarious" % "0.12.0"
 )
 
 // // For resolving dependency versions conflicts:
