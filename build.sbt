@@ -2,12 +2,13 @@ name          := "reads"
 organization  := "com.miodx.clonomap"
 version       := "0.3.0"
 description   := ""
-scalaVersion  := "2.12.8"
+scalaVersion  := "2.11.11"
 
 bucketSuffix  := "era7.com"
 
 libraryDependencies ++= Seq(
-  "com.miodx.clonomap" %% "fastarious" % "0.12.0"
+  "com.miodx.common" %% "fastarious" % "0.11.0",
+  "org.scalatest"    %% "scalatest"  % "3.0.5" % Test
 )
 
 // // For resolving dependency versions conflicts:
